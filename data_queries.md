@@ -47,7 +47,8 @@ SELECT
   , first_dep_time
   , total_add_gtime
   , longest_add_gtime
-FROM flights;
+FROM flights
+LIMIT 500000;
 ```
 
 ### Table **passengers**
@@ -91,7 +92,8 @@ SELECT
   , year
   , distance_group
   , class
-FROM passengers;
+FROM passengers
+LIMIT 300000;
 ```
 
 ### Table **fuel_comsumption**
