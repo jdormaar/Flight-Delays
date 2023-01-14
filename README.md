@@ -10,38 +10,53 @@
 
 To
 
-1. ...
-1. ...
-1. ...
+1. Generate statistical analysis and machine learning models to predict the arrival delay of commercial flights.
 
 ## Process
 
 Steps followed:
 
-1. ...
-1. ...
-1. ...
+1. Establish a connection with the AWS server.
+1. Explore the source data tables with SQL queries for initial basic data familiarization.
+1. Once satisfied with the appropriate data volume and content, it was saved to a .csv file from which we could work with in python pandas.
+1. Data exploration and Feature Engineering ideas were generated through the questions detailed in the EDA notebook provided as well as some curiosities of our own.
+1. Data cleaning was nearly continuous, but predominantly focused on prior to getting ready to trial fitting models to the data.
+1. Dimensionality reduction and variable selection were done as they were relevant to the Machine Learning models imported from sklearn modules.
 
-## Results
+## Images:
 
-...
+### Target Variable Arrival Delay: Normalization
 
-- ...
-- ...
-- ...
+![](/W6MTP/Flight-Delays/Images/Arrival_delay_distn_df_usa_.png)
 
-### ERD
+the Gaussean distribution of the arrival delay was further supported by a Shapiro Wilk test equal to 1 and a mean value near 0.
 
-![](./ERD/erd_example.png)
+### Outlier management:
+
+![](/W6MTP/Flight-Delays/Images/Arrival_delay_outliers_boxplot_df_usa_.png)
+
+Outliers were addressed by 1.5 \* the IQR method:
+![](/W6MTP/Flight-Delays/Images/Arrival_delay_boxplot_df_usa_.png)
+
+A monlthy display of the central tendencies of Arrival Delay distributions.
+![](/W6MTP/Flight-Delays/Images/Arrival_delays_monthly_boxplot_df_usa_.png)
+
+Despite not being overly informative, this graph is a visually appealing graphical visualization.
+
+### XGBoost:
+
+XGBoost hierarchy bar graph illustrating the importance of the parameters
+![](/W6MTP/Flight-Delays/Images/xgb_params_importance.png)
+![](/W6MTP/Flight-Delays/Images/xgboost_scatter.png)
 
 ## Challenges
 
-- ...
-- ...
-- ...
+- Collecting the weather data from the World weather online network took careful planing and a significant amount of time for the get requests to be sent and received, approx 6-7 hours for 87000 records. Errors made in this query were costly, and as a result we learned to be much more careful and precise with the specificity of our request.
+- Setting up and maintaining two functional python working environments to alow the above mentioned get-request to execute undisturbed.
+- Sharing Jupyter Notebooks through git was a wonderfully intense learning curve!
 
 ## Future Goals
 
-1. ...
-1. ...
-1. ...
+1. There are so many other ways this data could have been manipulated with seemingly endless options for various feature engineering opportunities, that it would have been fun to more thoroughly explore a few more of these rabbit holes.
+1. Trial more machine learning models on various iterations of the same data, not only to better evaluate how well they fit the data, and are capable of generating predictions, but also to better familiarize with the pros, cons, and best use-cases for each type of model.
+1. Given the opportunity to have "tried it all over again", we would have spent more time at the very beginning building a plan, and detailing out how we would complete it.
