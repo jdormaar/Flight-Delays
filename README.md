@@ -33,21 +33,21 @@ the Gaussean distribution of the arrival delay was further supported by a Shapir
 
 ### Outlier management:
 
-![](/W6MTP/Flight-Delays/Images/Arrival_delay_outliers_boxplot_df_usa_.png)
+![](./Images/Arrival_delay_outliers_boxplot_df_usa_.png)
 
 Outliers were addressed by 1.5 \* the IQR method:
-![](/W6MTP/Flight-Delays/Images/Arrival_delay_boxplot_df_usa_.png)
+![](./Images/Arrival_delay_boxplot_df_usa_.png)
 
 A monlthy display of the central tendencies of Arrival Delay distributions.
-![](/W6MTP/Flight-Delays/Images/Arrival_delays_monthly_boxplot_df_usa_.png)
+![](./Images/Arrival_delays_monthly_boxplot_df_usa_.png)
 
 Despite not being overly informative, this graph is a visually appealing graphical visualization.
 
 ### XGBoost:
 
 XGBoost hierarchy bar graph illustrating the importance of the parameters
-![](/W6MTP/Flight-Delays/Images/xgb_params_importance.png)
-![](/W6MTP/Flight-Delays/Images/xgboost_scatter.png)
+![](./Images/xgb_params_importance.png)
+![](./Images/xgboost_scatter.png)
 
 ## Challenges
 
