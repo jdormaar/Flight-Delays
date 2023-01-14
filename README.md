@@ -27,7 +27,7 @@ Steps followed:
 
 ### Target Variable Arrival Delay: Normalization
 
-![](/W6MTP/Flight-Delays/Images/Arrival_delay_distn_df_usa_.png)
+![](/W6MTP/Flight-Delays/Images/Arrival*delay_distn_df_usa*.png)
 
 the Gaussean distribution of the arrival delay was further supported by a Shapiro Wilk test equal to 1 and a mean value near 0.
 
