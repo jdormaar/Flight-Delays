@@ -41,7 +41,7 @@ Outliers were addressed by 1.5 \* the IQR method:
 A monlthy display of the central tendencies of Arrival Delay distributions.
 ![](./Images/Arrival_delays_monthly_boxplot_df_usa_.png)
 
-Despite not being overly informative, this graph is a visually appealing graphical visualization.
+Despite not being overly informative, this graph is a visually appealing graphical visualization, which illustrates rather surprisingly the absence of seasonal delay trends.
 
 ### XGBoost:
 
