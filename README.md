@@ -1,6 +1,6 @@
 # Predicting Flight Delays
 
-### Lighthouse Labs, Midterm Project Project.
+### Lighthouse Labs, Midterm Project.
 
 ##### January 13, 2023. Terre Leung, Tetiana Fesenko, and Jamie Dormaar
 
@@ -19,8 +19,8 @@ Steps followed:
 1. Establish a connection with the AWS server.
 1. Explore the source data tables with SQL queries for initial basic data familiarization.
 1. Once satisfied with the appropriate data volume and content, it was saved to a .csv file from which we could work with in python pandas.
-1. Data exploration and Feature Engineering ideas were generated through the questions detailed in the EDA notebook provided as well as some curiosities of our own.
-1. Data cleaning was nearly continuous, but predominantly focused on prior to getting ready to trial fitting models to the data.
+1. Data exploration and Feature Engineering was generated through the questions detailed in the EDA notebook provided as well as some curiosities of our own.
+1. Data cleaning was nearly continuous, but predominantly was focused on prior to fitting ML models to the data.
 1. Dimensionality reduction and variable selection were done as they were relevant to the Machine Learning models imported from sklearn modules.
 
 ## Images:
