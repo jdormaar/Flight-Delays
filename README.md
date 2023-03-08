@@ -8,9 +8,7 @@
 
 ## Project/Goals
 
-To
-
-1. Generate statistical analysis and machine learning models to predict the arrival delay of commercial flights.
+We attempted to apply statistical analysis and generate machine learning models to predict the arrival delays of commercial airline flights.
 
 ## Process
 
