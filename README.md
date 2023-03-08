@@ -45,13 +45,13 @@ Despite not being overly informative, this graph is a visually appealing graphic
 
 ### XGBoost:
 
-XGBoost hierarchy bar graph illustrating the importance of the parameters
+XGBoost hierarchy bar graph illustrating the importance of various parameters
 ![](./Images/xgb_params_importance.png)
 ![](./Images/xgboost_scatter.png)
 
 ## Challenges
 
-- Collecting the weather data from the World weather online network took careful planing and a significant amount of time for the get requests to be sent and received, approx 6-7 hours for 87000 records. Errors made in this query were costly, and as a result we learned to be much more careful and precise with the specificity of our request.
+- Collecting the weather data from the World weather online network took careful planing and a significant amount of time for the get requests to be sent and received, approx 6-7 hours for 87000 records. Errors made in this query were costly, and as a result we learned to be much more careful and precise with the specificity of our data requests.
 - Setting up and maintaining two functional python working environments to alow the above mentioned get-request to execute undisturbed.
 - Sharing Jupyter Notebooks through git was a wonderfully intense learning curve!
 
